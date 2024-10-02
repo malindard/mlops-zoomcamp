@@ -31,7 +31,7 @@ The MLOps Maturity Model describes how an organization can improve its machine l
 - **Tools used**: GitHub (version control), Jenkins (CI/CD for deployment).
 
 ## Level 2: Automated Training
--**What's happening?**: Training models becomes more automated. The training pipelines (the process of preparing data, training models, and saving results) are automated, and you can track experiments easily.
+- **What's happening?**: Training models becomes more automated. The training pipelines (the process of preparing data, training models, and saving results) are automated, and you can track experiments easily.
 - **Example**: You set up a pipeline where every time new data arrives, the model trains automatically. You can track all the experiments, so you know which model version performed best.
 _ **Tools used**: Kubeflow Pipelines (automated training), MLflow (experiment tracking).
 
